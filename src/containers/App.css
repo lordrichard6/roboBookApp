@@ -1,12 +1,13 @@
 @font-face {
-font-family: 'SEGA LOGO FONT';
-font-style: normal;
-font-weight: normal;
-src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
-}
+  font-family: 'Blindspot Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Blindspot Regular'), url('Blindspot.woff') format('woff');
+  }
 
 h1 {
-  font-family: 'SEGA LOGO FONT';
-  font-weight: 200;
-  color: #0ccac4;
+  font-family: 'Blindspot Regular';
+  background: -webkit-linear-gradient(rgba(33,147,176,1), rgba(109,213,237,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
